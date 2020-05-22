@@ -1,0 +1,20 @@
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+    width: 100px;
+    background-color: black;
+    color: transparent;
+    margin: 1em;
+ 
+}
+
+.box:hover {
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
